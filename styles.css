@@ -17,11 +17,11 @@ H1 {
     display: flex;
     flex-wrap: wrap;
     margin-top: 100px;
-    background-color: grey;
+    background-color: #333333;
 }
 
 #grid TR TD {
-    background: darkgreen;
+    background: #556b2f;
     height: 40px;
     width: 40px;
 
