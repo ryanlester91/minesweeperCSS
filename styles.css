@@ -11,7 +11,7 @@ H1 {
 
 #grid {
     height: 425px;
-    width: 400px;
+    width: 425px;
     margin-left: auto;
     margin-right: auto;
     display: flex;
@@ -21,7 +21,7 @@ H1 {
 }
 
 #grid TR TD {
-    background: #556b2f;
+    background: lightgray;
     height: 40px;
     width: 40px;
 
@@ -30,7 +30,7 @@ H1 {
 
 #grid TR TD.clicked {
     background: #333333;
-    color: cyan;
+    color: whitesmoke;
     font-family:Impact, 'Arial Narrow Bold', sans-serif;
     font-size: 16pt;
     border: 5px solid;

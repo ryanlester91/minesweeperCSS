@@ -26,7 +26,7 @@ function addMines() {
     var col = Math.floor(Math.random() * 10);
     var cell = grid.rows[row].cells[col];
     cell.setAttribute("data-mine","true");
-    if (testMode) cell.innerHTML="X";
+    //cell.innerHTML = '💣'
   }
 }
 
@@ -36,6 +36,8 @@ function revealMines() {
       for(var j=0; j<10; j++) {
         var cell = grid.rows[i].cells[j];
         if (cell.getAttribute("data-mine")=="true") cell.className="mine";
+        //cell.innerHTML = '💣'
+        
       }
     }
 }
